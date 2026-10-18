@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Node / 前端
+node_modules/
+frontend/dist/
+frontend/public/core/   # 由 scripts/sync-core.mjs 从 core/ 自动同步生成
+
+# Playwright
+frontend/test-results/
+frontend/playwright-report/
+
+# IDE 与本地环境
+.idea/
+.vscode/
+.env
+.env.*
+
+# 其他
+.DS_Store
+*.log
